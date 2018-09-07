@@ -1,0 +1,59 @@
+@import vars
+@import global
+@import hero
+@import cont
+@import contact
+
+// Responsive 
+@media screen and (max-width: 1600px)
+    .hero
+        background-image: url("../images/hero_uhd.jpg")
+
+@media screen and (max-width: 1100px)
+    .hero
+        background-image: url("../images/hero_hd.jpg")
+
+@media screen and (max-width: 768px)
+    .hero
+        background-image: url("../images/hero_mobile.jpg")
+    .flex-2
+        flex-direction: column
+    h1 
+        font-size: 40px
+    .scroll
+        display: none
+
+@media screen and (max-width : 480px) 
+    .hero
+        background-image: url("../images/hero_mobile.jpg")
+    h1
+        font-size: 35px
+    h2 
+        font-size: 25px
+    .btn
+        font-weight: 500
+        width: 180px
+        height: 50px
+        font-size: 16px
+    p 
+        font-size: 16px
+    .heroContent
+        clear: both
+        margin: 0 0 0 5%
+        padding-top: 130px
+        h1 
+            width: 80%
+        p 
+            width: 80%
+    .desktopNav
+        display: none
+    nav
+        .mobileNav
+            display: block
+            a 
+                text-decoration: none
+                color: white
+                font-size: 30px
+        .logo
+            font-size: 25px
+        

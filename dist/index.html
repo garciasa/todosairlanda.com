@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodosaIrlanda.com</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/todosairlanda.js"></script>
+</head>
+<body onload="init()">
+   <div class="hero">
+       <nav>
+           <a href="#" class="logo">TodosaIrlanda</a>
+
+           <div class="desktopNav">
+                <a href="#casas">Casas</a>
+                <a href="#colegios">Colegios</a>
+                <a href="#asesoramiento">Asesoramiento</a>
+                <a href="#contacta">Contacta</a>
+           </div>
+           <div class="mobileNav">
+               <a href="#">&#9776;</a>
+           </div>
+       </nav>
+       <div class="heroContent">
+           <h1>
+               ¿Estas pensando en venirte a Irlanda con los
+               niños una temporada?
+           </h1>
+           <p>
+                Los traslados son complicados, y alquilar una casa 
+                no es tarea fácil. Necesitas tener contactos o que 
+                te conozcan para que las agencias te hagan caso, ¿te 
+                ha pasado?
+           </p>
+           <a href="#contacta" class="btn"><img src="images/envelope.png" alt="envelope icon">Contacta</a>
+           <div class="scroll">
+               <div class="line"></div>
+               <p>SCROLL</p>
+           </div>
+           <!--<div class="background"><img src="./images/hero.jpg" alt="background img"></div>-->
+       </div>
+    </div> 
+    <a name="casas" id="casas"></a> 
+    <div class="flex-2">
+        <div class="flexItem" data-aos="fade-up">
+            <img src="images/images_houses.jpg" alt="houses image" class="">
+        </div>
+        <div class="flexItem flexText" data-aos="fade-up">
+            <h2>B&uacute;squeda de casas</h2>
+            <p>
+               Dinos que buscas y te ayudaremos a encontrar una casa,
+               la vemos, os contamos, os ayudamos con el papeleo y 
+               firmas de contratos.
+            </p>
+        </div>
+    </div>
+    <a name="colegios" id="colegios"></a> 
+    <div class="flex-2 schoolSection">
+        <div class="flexItem flexText" data-aos="fade-right">
+            <h2>B&uacute;squeda de colegios</h2>
+            <p>
+               Te ayudamos con las gestiones para matricular a tus hijos 
+               en un colegio Irlandés.
+            </p>
+        </div>
+        <div class="flexItem" data-aos="fade-left">
+            <img src="images/images_kids.jpg" alt="kids image">
+        </div>
+    </div>
+    <a name="asesoramiento" id="asesoramiento"></a> 
+    <div class="flex-2">
+        <div class="flexItem" data-aos="flip-up">
+            <img src="images/images_meeting.jpg" alt="meeting image">
+        </div>
+        <div class="flexItem flexText" data-aos="flip-up">
+            <h2>Asesoramiento</h2>
+            <p>
+                Te ayudamos con las gestiones para matricular a tus hijos en un colegio Irlandés.
+            </p>
+        </div>
+    </div>
+    <a name="contacta" id="contacta"></a> 
+    <div class="flex-vertical contact">
+        <div class="flexItem header-contact"><h1>Contacta</h1></div>
+        <div class="flex-2">
+            <div class="flexItem">
+                <div class="message"></div>
+                <form id="formContacta">     
+                    <input type="text" name="nombre" placeholder="Nombre"  required/>
+                    <input type="text" name="email" placeholder="Email" required/>
+                    <input type="text" name="nkids" placeholder="N&uacute;mero de ni&ntilde;os" required/>
+                    <input type="text" name="nrooms" placeholder="N&uacute;mero de habitaciones" required/>
+                    <textarea name="descripcion" placeholder="Descripci&oacute;n" onkeyup="adjust_textarea(this)" ></textarea>
+                    <button id="btn_submit" onclick="javascript:contacta(event)">Enviar</button>
+                </form>
+            </div>
+            <div class="flexItem">
+                <div class="box">
+                    <h3>Informaci&oacute;n de contacto</h3>
+                    <p>Email</p>
+                    <p>info@todosairlanda.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2018 TodosaIrlanda</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "TodosaIrlanda Website",
+    "short_name": "TodosaIrlanda",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FEFEFE",
+    "theme_color": "#333333",
+    "icons": [{
+        "src": "./assets/icons/img/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }]
+}
