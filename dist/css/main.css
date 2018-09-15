@@ -160,6 +160,13 @@ nav .mobileNav {
   color: white;
 }
 
+.family-section {
+  background-color: #737CC9;
+}
+.family-section .flexItem p {
+  color: white;
+}
+
 footer {
   text-align: center;
 }
@@ -174,7 +181,7 @@ footer p {
   margin: 3em auto;
   justify-content: center;
   max-width: 1700px;
-  background-color: #737CC9;
+  background-color: white;
 }
 .flex-vertical .header-contact {
   text-align: center;
@@ -198,14 +205,14 @@ footer p {
   width: 100%;
   padding: 7px;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid grey;
   background: transparent;
   margin-bottom: 10px;
   height: 45px;
-  color: white;
+  color: grey;
 }
 .flex-vertical form input[type=text]::-webkit-input-placeholder {
-  color: white;
+  color: grey;
 }
 .flex-vertical form textarea {
   box-sizing: border-box;
@@ -216,17 +223,17 @@ footer p {
   width: 100%;
   padding: 7px;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid grey;
   background: transparent;
   margin-bottom: 10px;
   height: 45px;
-  color: white;
+  color: grey;
   resize: none;
   overflow: hidden;
-  background-color: #737CC9;
+  background-color: white;
 }
 .flex-vertical form textarea::-webkit-input-placeholder {
-  color: white;
+  color: grey;
 }
 .flex-vertical form button {
   width: 100%;
@@ -236,8 +243,14 @@ footer p {
   color: white;
   border-radius: 3px;
 }
-.flex-vertical .flexItem .box p {
-  color: white;
+.flex-vertical .contact-email {
+  height: 335px;
+}
+.flex-vertical .contact-email .bold {
+  font-weight: bold;
+}
+.flex-vertical .contact-email .box p {
+  color: black;
 }
 
 @media screen and (max-width: 1600px) {
