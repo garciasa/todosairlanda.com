@@ -253,6 +253,11 @@ footer p {
   color: black;
 }
 
+@media screen and (min-width: 1601px) {
+  .hero {
+    background-image: url("../images/hero_uhd.jpg");
+  }
+}
 @media screen and (max-width: 1600px) {
   .hero {
     background-image: url("../images/hero_uhd.jpg");
