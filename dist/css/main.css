@@ -328,13 +328,154 @@ footer p {
   nav .mobileNav {
     display: block;
   }
-  nav .mobileNav a {
+  nav .mobileNav .icon {
     text-decoration: none;
     color: white;
     font-size: 30px;
   }
+  nav .mobileNav .mobileNav-items {
+    display: none;
+    position: absolute;
+    width: 360px;
+  }
+  nav .mobileNav .mobileNav-items ul {
+    text-align: center;
+  }
+  nav .mobileNav .mobileNav-items ul li {
+    list-style: none;
+    background-color: #2A2437;
+  }
+  nav .mobileNav .mobileNav-items a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+  }
   nav .logo {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero {
+    background-image: url("../images/hero_mobile.jpg");
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .heroContent {
+    clear: both;
+    margin: 0 0 0 5%;
+    padding-top: 50px;
+  }
+  .heroContent h1 {
+    width: 80%;
+  }
+  .heroContent p {
+    width: 80%;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  nav .mobileNav {
+    display: block;
+  }
+  nav .mobileNav .mobileNav-items {
+    display: none;
+    position: absolute;
+    width: 320px;
+    z-index: 10;
+  }
+  nav .mobileNav .mobileNav-items ul {
+    text-align: center;
+  }
+  nav .mobileNav .mobileNav-items ul li {
+    list-style: none;
+    background-color: #2A2437;
+  }
+  nav .mobileNav .mobileNav-items a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero {
+    background-image: url("../images/hero_mobile.jpg");
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .heroContent {
+    clear: both;
+    margin: 0 0 0 5%;
+    padding-top: 30px;
+  }
+  .heroContent h1 {
+    width: 80%;
+  }
+  .heroContent p {
+    width: 80%;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  nav .mobileNav {
+    display: block;
+  }
+  nav .mobileNav .mobileNav-items {
+    display: none;
+    position: absolute;
+    width: 280px;
+    z-index: 10;
+  }
+  nav .mobileNav .mobileNav-items ul {
+    text-align: center;
+  }
+  nav .mobileNav .mobileNav-items ul li {
+    list-style: none;
+    background-color: #2A2437;
+  }
+  nav .mobileNav .mobileNav-items a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
   }
 }
 

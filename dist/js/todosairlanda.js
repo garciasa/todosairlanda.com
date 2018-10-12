@@ -46,3 +46,10 @@ function contacta(e) {
     request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
     request.send(JSON.stringify(data));
 }
+function showMenu(e){
+    e.preventDefault();
+   var isShow = document.querySelector("#mobileNav-items").style.display === 'block';
+   var cssClass = 'none';
+   isShow ? cssClass = 'none' : cssClass = 'block'; 
+   document.querySelector("#mobileNav-items").style.display = cssClass;
+}
