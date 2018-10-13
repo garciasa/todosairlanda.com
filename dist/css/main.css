@@ -1,5 +1,5 @@
 html {
-  font-family: proxima nova, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -56,6 +56,10 @@ a {
 }
 .btn img {
   padding-right: 10px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
