@@ -18,7 +18,7 @@ function init() {
             e.preventDefault()
         })
     }
-    document.querySelector("#buttonMenu").addEventListener("click", function(){
+    document.getElementById("buttonMenu").addEventListener("click", function(){
        var isShow = document.querySelector("#mobileNav-items").style.display === 'block';
        var cssClass = 'none';
        isShow ? cssClass = 'none' : cssClass = 'block'; 
