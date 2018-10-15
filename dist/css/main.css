@@ -335,7 +335,7 @@ footer p {
   nav .mobileNav .icon {
     color: white;
     font-size: 30px;
-    text-decoration: none;
+    background-color: Transparent;
   }
   nav .mobileNav .mobileNav-items {
     display: none;
@@ -404,7 +404,7 @@ footer p {
   nav .mobileNav .icon {
     color: white;
     font-size: 30px;
-    text-decoration: none;
+    background-color: Transparent;
   }
   nav .mobileNav .mobileNav-items {
     display: none;
@@ -471,7 +471,7 @@ footer p {
   nav .mobileNav .icon {
     color: white;
     font-size: 30px;
-    text-decoration: none;
+    background-color: Transparent;
   }
   nav .mobileNav .mobileNav-items {
     display: none;
